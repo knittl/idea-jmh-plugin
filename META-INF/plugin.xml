@@ -1,14 +1,20 @@
 <idea-plugin version="2">
-    <id>ru.artyushov</id>
-    <name>JMH plugin</name>
-    <version>1.0.3</version>
-    <vendor email="nikita.artyushov@gmail.com" url="https://github.com/artyushov/idea-jmh-plugin">Nikita Artyushov</vendor>
+    <id>at.knittl.intellij.plugins.jmhack</id>
+    <name>JMHack</name>
+    <version>1.0.4</version>
+    <vendor email="knittl89+idea@gmail.com" url="https://github.com/knittl/idea-jmh-plugin">Daniel Knittl-Frank</vendor>
 
     <description><![CDATA[
-      Plugin for generating and running JMH benchmarks from your IDE
+      Plugin for generating and running JMH benchmarks from your IDE.
+      This is a fork of the popular "JMH plugin" plugin.
     ]]></description>
 
     <change-notes><![CDATA[
+      <ul>
+         <li>Forked from "JMH plugin" (artyushov/idea-jmh-plugin)</li>
+         <li>Enable setting JVM options in runtime configuration</li>
+         <li>Add gutter icons for benchmark methods and containing class</li>
+      <ul>
     ]]>
     </change-notes>
 
